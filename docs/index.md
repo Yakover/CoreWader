@@ -1,3 +1,2 @@
-1. [Введение](getting-started.md)
-2. [Routing](router.md)
-3. [List](list.md)
+1. [List](list.md)
+2. [Sql Builder](sql.md)
