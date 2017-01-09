@@ -5,13 +5,11 @@
 
 После установки в админ. панели появится вкладка, на которой можно увидеть список существующих акций:
 
-![Список Акций][logo]
-[logo]: https://raw.githubusercontent.com/Yakover/CoreWader/master/docs/img/salesGroups/salelist.PNG "Список Акций"
+![Список Акций](https://raw.githubusercontent.com/Yakover/CoreWader/master/docs/img/salesGroups/salelist.PNG "Список Акций") 
 
 Для создания нового акционного предложения необходимо нажать на кнопку:
 
-![Создать акционное предложение][logo]
-[logo]: https://raw.githubusercontent.com/Yakover/CoreWader/master/docs/img/salesGroups/createsalebutton.PNG "Создать акционное предложение"
+![Создать акционное предложение](https://raw.githubusercontent.com/Yakover/CoreWader/master/docs/img/salesGroups/createsalebutton.PNG "Создать акционное предложение")
 
 После нажатия появится окно, здесь необходимо всести информацию о новом акционоом предложении. 
 Как только будет внесена вся необходимая информация, 
