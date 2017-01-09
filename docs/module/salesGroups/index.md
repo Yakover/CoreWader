@@ -12,4 +12,7 @@
 ![Создать акционное предложение](https://raw.githubusercontent.com/Yakover/CoreWader/master/docs/img/salesGroups/createsalebutton.PNG "Создать акционное предложение")
 
 После нажатия появится окно, здесь необходимо всести информацию о новом акционоом предложении. 
-Как только будет внесена вся необходимая информация, нажать кнопку 
+Как только будет внесена вся необходимая информация, нажать кнопку: 
+
+![Создать акционное предложение](https://raw.githubusercontent.com/Yakover/CoreWader/master/docs/img/salesGroups/createnewsale.PNG "Создать акционное предложение")
+.
