@@ -8,3 +8,5 @@
 ![alt text][logo]
 [logo]: https://raw.githubusercontent.com/Yakover/CoreWader/master/docs/img/salesGroups/salelist.PNG "Список Акций"
 
+Для создания нового акционного предложения необходимо нажать на кнопку:
+
