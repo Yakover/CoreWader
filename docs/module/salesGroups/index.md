@@ -4,9 +4,12 @@
 Данный модуль устанавливается как дополнение к существующему интернет-магазину.
 
 После установки в админ. панели появится вкладка, на которой можно увидеть список существующих акций:
-
 ![alt text][logo]
 [logo]: https://raw.githubusercontent.com/Yakover/CoreWader/master/docs/img/salesGroups/salelist.PNG "Список Акций"
 
 Для создания нового акционного предложения необходимо нажать на кнопку:
+![alt text][logo]
+[logo]: https://raw.githubusercontent.com/Yakover/CoreWader/master/docs/img/salesGroups/createsalebutton.PNG "Создать акционное предложение"
 
+После нажатия появится окно, здесь необходимо всести информацию о новом акционоом предложении. 
+Как только будет внесена вся необходимая информация, 
