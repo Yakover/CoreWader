@@ -6,5 +6,5 @@
 После установки в админ. панели появится вкладка, на которой можно увидеть список существующих акций:
 
 ![alt text][logo]
-[logo]: https://github.com/Yakover/CoreWader/blob/master/docs/img/salesGroups/salelist.PNG "Список Акций"
+[logo]: https://raw.githubusercontent.com/Yakover/CoreWader/master/docs/img/salesGroups/salelist.PNG "Список Акций"
 
