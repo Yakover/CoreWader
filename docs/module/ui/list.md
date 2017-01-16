@@ -1,10 +1,11 @@
 # Описание класса Altairtable
 
 **_Altairtable_** - класc, который предоставляет разработчику инструментарий для отображенния списков из DB или Array.
+
 ## Использование из DB
 
-Для получения данных используется [ui_clasess_Sql](sql.md)
-он хранится в свойстве 
+Для получения данных из базы данных используется [ui_clasess_Sql](sql.md)
+он хранится в свойстве класса
 ```php
 <?php
     $List = new ui_clasess_Altairtable('');
@@ -39,30 +40,9 @@
 ?>
 ```
 
-Есть возможность кастомизировать столбец под свои нужды.
-Для этого необходимо добавить 3й параметр как указано в примере
-
-```php
-<?php
-    /*...some code...*/
-    $List->q->select('o.url', Lang::get('url'), ['formater' => 'urlSite']);
-    /*...some code...*/
-    function formater_urlSite($contentColum, $columInfo, $countRow, $countCell)
-    {
-        if ($contentColum) {
-            $url = Routing::url($contentColum);
-            return '<a target="_blank" href="' . $url . '"><i class="material-icons">launch</i></a>';
-        } else {
-            return '<i class="material-icons">warning</i>';
-        }
-    }
-?>
-```
-
+Таким образом, из примера выше видно, что с помощью класса [ui_clasess_Sql](sql.md) можно написать абсолютно любой SQL запрос.
 
 ## Использования из Array
-
-
 
 ```php
 <?php
@@ -71,6 +51,33 @@
  $List->addData(['key'=>'test']);
  $List->router();
 ```
+
+## Возможности класса
+
+Данный класс предоставляет инструментарий для кастомизации получаемого поля.
+Для этого необходимо добавить 3й параметр (formater) в строку получаемого поля, как указано в примере
+
+```php
+<?php
+    /*...some code...*/
+    
+    $List->q->select('o.url', Lang::get('url'), ['formater' => 'urlSite']);
+    
+    /*...some code...*/
+    
+    function formater_urlSite($contentColum, $columInfo, $countRow, $countCell)
+    {
+        /*...some logic...*/
+    }
+?>
+```
+
+$contentColum - значение текущего поля.
+$columInfo - массив ключей и значений всех полей, которые указаны в запросе.
+
+При отображении конечного списка, вывод данных будет с учетом отработки функции formater
+
+
 
 
 ## Установка урла получения даних
