@@ -1,3 +1,3 @@
 # Описания
 
-Wader (Wader) - 
+**Wader** *(Wader)* - 

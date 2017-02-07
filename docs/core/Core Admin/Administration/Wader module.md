@@ -1,3 +1,3 @@
 # Описания
 
-Wader module (Модули Wader) - ```
+**Wader module** *(Модули Wader)* - ```
