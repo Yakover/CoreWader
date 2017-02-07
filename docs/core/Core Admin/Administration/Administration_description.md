@@ -29,5 +29,4 @@
 # Wader
 >**Wader** *(Wader)* -
 
-## add
->**add** *(add)* - add all of...
+
