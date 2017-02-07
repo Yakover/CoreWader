@@ -27,6 +27,7 @@
 >**Wader module** *(Модули Wader)* -
 
 # Wader
+>**Wader** *(Wader)* -
 
 ## add
->**Wader** *(Wader)* -
+>**add** *(add)* - add all of...
